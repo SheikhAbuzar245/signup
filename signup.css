@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+  
+  
+}
+
+.outer{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+    border: 5px solid red;
+   
+}
+
+.container{
+    padding: 15px 0px 0px 0px;
+    width: 350px;
+    height: 350px;
+    background-color: blanchedalmond;
+   box-shadow: 10ch;
+    position: absolute;
+    top: 120px;
+    left: 450px;
+    border-radius: 10px;
+    box-shadow: 6px 10px 34px -20px;
+}
+.sign-up{
+   text-align: center;
+   text-transform: capitalize;
+}
+.descrip{
+    text-align: center;
+}
+
+
+input{
+    width: 90%;
+    padding: 7px;
+    margin: 5px 0px 0px 10px;
+    border-radius: 20px;
+}
+label{
+    display: block;
+    margin: 5px 0px 0px 10px;
+}
+.submit{
+    
+    width: 94%;
+    position: relative;
+    top: 10px;
+    background-color: rgb(246, 220, 23);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+ 
+
+}
+.submit:hover{
+    background-color: blanchedalmond;
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(255, 221, 0);
+    border-radius: 20px;
+    cursor: pointer;
+
+}
